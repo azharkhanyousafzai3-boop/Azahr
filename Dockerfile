@@ -1,0 +1,5 @@
+FROM n8nio/n8n
+EXPOSE 8080
+ENV N8N_PORT=8080
+ENV N8N_PROTOCOL=https
+CMD ["n8n", "start"]
